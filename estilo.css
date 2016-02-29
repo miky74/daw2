@@ -1,0 +1,551 @@
+@media(max-width:767px){
+    body{
+        background: url("http://lorempixel.com/300/300/city") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #centroCentroB{
+        height: auto;
+        padding-top:30px;
+        padding-bottom: 30px;
+        color: white;
+    }
+
+    #capaSlide{
+        overflow: hidden;
+		padding-bottom: 5px;
+        background-color: black;
+        color: white;
+		height: auto;
+        padding-top:30px;
+    }
+
+
+    #arribaArriba{
+        height: auto;
+        color: white;
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+
+    #arribaAbajo{
+		color: white;
+        height: auto;
+        padding-top:30px;
+    }
+
+    #precio{
+        height: auto;
+        color: black;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    #centroAbajoS{
+		color: black;
+        height: auto;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+
+    #centroAbajoI{
+        /*background-image: none;*/
+        background-image: url(../img/slide_767x400/alcaniz2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top:30px;
+        height: 400px;
+        color: #fff;
+    }
+
+    #pie{
+        background-color: black;
+        color: #fff;
+        height: 600px;
+    }
+    
+    /* Aumentar el tamanyo del glyphicon segun media */
+    .glyphicon {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px){
+    body{
+        background: url("http://lorempixel.com/400/400/city") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #centroCentroB{
+        height: auto;
+        padding-top:30px;
+        padding-bottom:30px;
+        color: white;
+    }
+
+    #capaSlide{
+        overflow: hidden;
+		padding-bottom: 5px;
+		margin-top: 30px;
+        background-color: black;
+        color: white;
+		height: auto;
+        padding-top:30px;
+    }
+
+    #arribaArriba{
+        height: auto;
+        color: white;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    #precio{
+        height: auto;
+        max-height: 991px;
+        color: black;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    #centroAbajoS{
+	    color: black;
+        height: auto;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+
+    #centroAbajoI{
+        background-image: url(../img/slide_991x400/alcaniz2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top:30px;
+        height: 400px;
+        color: #fff;
+    }
+
+    #pie{
+        background-color: black;
+        color: #fff;
+        height: 600px;
+    }
+    
+    /* Aumentar el tamanyo del glyphicon segun media */
+    .glyphicon {
+        font-size: 30px;
+    }
+}
+
+@media(min-width:992px){
+    body{
+        background: url("http://lorempixel.com/500/500/city");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #centroCentroB{
+        height: auto;
+        padding-top:30px;
+        padding-bottom:30px;
+        color: white;
+    }
+
+    #capaSlide{
+		padding-bottom: 5px;
+		margin-top: 30px;
+        background-color: black;
+        color: white;
+	    height: auto;
+        padding-top:30px;
+    }
+
+    #arribaArriba{
+        height: auto;
+        color: white;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    #arribaAbajo{
+	    color: white;
+        height: auto;
+        padding-top:30px;
+    }
+
+    #precio{
+        height: auto;
+        color: black;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    #centroAbajoS{
+	    color: black;
+        height: auto;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+
+    #centroAbajoI{
+        background-image: url(../img/slide_1199x400/alcaniz2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top:30px;
+        height: 400px;
+        color: #fff;
+    }
+
+    #pie{
+        background-color: black;
+        color: #fff;
+        height: 600px;
+    }
+    
+    /* Aumentar el tamanyo del glyphicon segun media */
+    .glyphicon {
+        font-size: 40px;
+    }
+}
+
+@media(min-width:1200px){
+    body{
+        background: url("http://lorempixel.com/600/600/city") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #centroCentroB{
+        height: auto;
+        padding-top:30px;
+        padding-bottom:30px;
+        color: white;
+    }
+
+    #capaSlide{
+        padding-bottom: 5px;
+	    margin-top: 30px;
+        background-color: black;
+        color: white;
+	    height: auto;
+        padding-top:30px;
+    }
+
+    #arribaArriba{
+        height: auto;
+        color: white;
+        padding-bottom: 50px;
+        height: auto;
+        padding-top:30px;
+    }
+
+    #precio{
+        height: auto;
+        color: black;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    #centroAbajoS{
+	    color: black;
+        height: auto;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+
+    #centroAbajoI{
+        background-image: url(../img/slide_1920x400/alcaniz2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top:30px;
+        height: 400px;
+        color: #fff;
+    }
+
+    #pie{
+        background-color: black;
+        color: #fff;
+        height: 600px;
+    }
+    /* Aumentar el tamanyo del glyphicon segun media */
+    .glyphicon {
+        font-size: 50px;
+    }
+}
+/* ---------- */
+/* FIN @MEDIA */
+/* ---------- */
+
+/* INSERTAR LOGOTIPO */
+#alca_app:before, h1:before, h2:before {
+    content: url(../thumbs/alca-app22x25.png);
+    vertical-align: middle;
+    color: #000;
+} 
+
+#formulario{
+    padding-top: 30px;
+}
+
+/* MODIFICAR COLOR BARRA DE NAVEGACION */
+.navbar-default{
+    background: rgba(245,204,212,1);
+    background: -moz-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,204,212,1)), color-stop(37%, rgba(252,172,80,1)), color-stop(66%, rgba(252,173,80,1)), color-stop(100%, rgba(245,204,212,1)));
+    background: -webkit-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+    background: -o-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+    background: -ms-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+    background: linear-gradient(to bottom, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ccd4', endColorstr='#f5ccd4', GradientType=0 );
+}
+
+.navbar li a, .navbar .navbar-brand {
+      color: #000 !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #FCAC50 !important;
+    background-color: #000 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FCbC50;
+}
+/* FIN MODIFICAR COLOR BARRA DE NAVEGACION */
+
+/* CAROUSEL CENTRADO */
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.inicial {
+    margin-top: 20px;
+    float: left;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 56px;
+    margin-right: 16px;
+    color: #FCAC50;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.colorBorde{
+    box-shadow: 2px 2px 5px #000;
+    height: 450px;
+    margin: 5px 0;
+}
+
+.bloque{
+    display: block;
+    margin: auto;
+}
+
+/* ENLACES */
+a{
+    color: #FCAC50;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:focus, a:hover {
+    color: #FCAC50;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* SOMBRA FUEGO */
+.fuego{
+    text-shadow: 0 0 20px #fefcc9, 2px 2px 3px #feec85, 4px 4px 5px #ffae34, 5px 10px 6px #ec760c, 5px 12px 8px #cd4606, 0 15px 20px #973716, 2px 15px 20px #451b0e;
+    color: #000;
+    font-weight: bold; /*para texto*/
+}
+
+.blancoSombra{
+    text-shadow: 2px 2px 5px #fff;
+}
+
+.paddingSup{
+    padding-top: 10px;
+}
+
+.fondoNegro{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.letraNegro{
+    color: black;
+}
+
+/* PARA BOTON */
+.boton{
+    position: relative;
+    top: 12em;
+    font-weight: bold;
+}
+/* PARA LA TABLA
+table img{
+    float: left;
+}
+
+td{
+    text-align: justify;
+}
+*/
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/* PANELES DE OFERTA, FONDOS Y BOTONES EN GENERAL */
+.panel-default {
+  border: 1px solid #000;
+}
+
+.btn:hover {
+    border: 1px solid #000;
+    background-color: #FFF !important;
+    color: #fff;
+    background: rgba(240,240,240,1);
+    background: -webkit-linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 3%, rgba(240,240,240,1) 98%, rgba(240,240,240,1) 100%);
+    background: -o-linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 3%, rgba(240,240,240,1) 98%, rgba(240,240,240,1) 100%);
+    background: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 3%, rgba(240,240,240,1) 98%, rgba(240,240,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#f0f0f0', GradientType=0 );
+}
+
+.btn {
+    margin: 15px 0px;
+    border: 1px solid #000;
+    color: #000;
+    background: rgba(240,240,240,1);
+    background: -webkit-linear-gradient(rgba(240,240,240,1) 0%, rgba(240,240,240,1) 3%, rgba(70,70,70,1) 98%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(rgba(240,240,240,1) 0%, rgba(240,240,240,1) 3%, rgba(70,70,70,1) 98%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(rgba(240,240,240,1) 0%, rgba(240,240,240,1) 3%, rgba(70,70,70,1) 98%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#000000', GradientType=0 );
+}
+
+/* BARRA DE NAVEGACION */
+#menu{
+  opacity:0.0;
+  filter:alpha(Opacity=0)
+}
+
+#menu:hover {
+  opacity:1.0;
+  filter:alpha(Opacity=100,FinishedOpacity=100)
+}
+/* FIN BARRA DE NAVEGACION */
+
+/* SOMBRA CAJA TEXTO */
+.sombraCaja{
+    box-shadow: 5px 5px 5px #000;
+}
+
+/* DEGRADADO VERTICAL */
+.panel-heading {
+    background: -webkit-linear-gradient(rgba(89,89,89,1) 0%, rgba(89,89,89,1) 11%, rgba(240,240,240,1) 100%) !important;
+    background: -o-linear-gradient(rgba(89,89,89,1) 0%, rgba(89,89,89,1) 11%, rgba(240,240,240,1) 100%) !important;
+    background: linear-gradient(rgba(89,89,89,1) 0%, rgba(89,89,89,1) 11%, rgba(240,240,240,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#f0f0f0', GradientType=0 ) !important;
+}
+/* DEGRADADO VERTICAL */
+.panel-footer {
+   background: rgba(240,240,240,1);
+   background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(89,89,89,1) 82%, rgba(89,89,89,1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,240,240,1)), color-stop(82%, rgba(89,89,89,1)), color-stop(100%, rgba(89,89,89,1)));
+   background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(89,89,89,1) 82%, rgba(89,89,89,1) 100%);
+   background: -o-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(89,89,89,1) 82%, rgba(89,89,89,1) 100%);
+   background: -ms-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(89,89,89,1) 82%, rgba(89,89,89,1) 100%);
+   background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(89,89,89,1) 82%, rgba(89,89,89,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#595959', GradientType=0 );
+}
+
+/* DEGRADADO NARANJA */
+.naranja{
+   background: rgba(245,204,212,1);
+   background: -moz-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,204,212,1)), color-stop(37%, rgba(252,172,80,1)), color-stop(66%, rgba(252,173,80,1)), color-stop(100%, rgba(245,204,212,1)));
+   background: -webkit-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+   background: -o-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+   background: -ms-linear-gradient(top, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+   background: linear-gradient(to bottom, rgba(245,204,212,1) 0%, rgba(252,172,80,1) 37%, rgba(252,173,80,1) 66%, rgba(245,204,212,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ccd4', endColorstr='#f5ccd4', GradientType=0 );
+}
+
+/* DEGRADADO NEGRO A GRIS */
+.negroGris{
+    background: rgba(0,0,0,1);
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(75,75,75,1)));
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4b4b4b', GradientType=0 );
+}
+
+/* DEGRADADO GRIS A LIGHT GRIS */
+.grisAgris{
+    background: rgba(75,75,75,1);
+background: -moz-linear-gradient(top, rgba(75,75,75,1) 0%, rgba(179,179,179,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(75,75,75,1)), color-stop(100%, rgba(179,179,179,1)));
+background: -webkit-linear-gradient(top, rgba(75,75,75,1) 0%, rgba(179,179,179,1) 100%);
+background: -o-linear-gradient(top, rgba(75,75,75,1) 0%, rgba(179,179,179,1) 100%);
+background: -ms-linear-gradient(top, rgba(75,75,75,1) 0%, rgba(179,179,179,1) 100%);
+background: linear-gradient(to bottom, rgba(75,75,75,1) 0%, rgba(179,179,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#b3b3b3', GradientType=0 );
+}
+
+/* DEGRADADO GRIS A BLANCO */
+.grisBlanco{
+    background: rgba(179,179,179,1);
+background: -moz-linear-gradient(top, rgba(179,179,179,1) 0%, rgba(237,237,237,1) 76%, rgba(255,255,255,0) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,179,179,1)), color-stop(76%, rgba(237,237,237,1)), color-stop(100%, rgba(255,255,255,0)));
+background: -webkit-linear-gradient(top, rgba(179,179,179,1) 0%, rgba(237,237,237,1) 76%, rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(top, rgba(179,179,179,1) 0%, rgba(237,237,237,1) 76%, rgba(255,255,255,0) 100%);
+background: -ms-linear-gradient(top, rgba(179,179,179,1) 0%, rgba(237,237,237,1) 76%, rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(179,179,179,1) 0%, rgba(237,237,237,1) 76%, rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#ffffff', GradientType=0 );
+}
+
+/* DEGRADADO DE BLANCO A GRIS */
+.blancoGris{
+    background: rgba(255,255,255,0);
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 28%, rgba(176,176,176,1) 80%, rgba(0,0,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(28%, rgba(227,227,227,1)), color-stop(80%, rgba(176,176,176,1)), color-stop(100%, rgba(0,0,0,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 28%, rgba(176,176,176,1) 80%, rgba(0,0,0,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 28%, rgba(176,176,176,1) 80%, rgba(0,0,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 28%, rgba(176,176,176,1) 80%, rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 28%, rgba(176,176,176,1) 80%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0 );
+}

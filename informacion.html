@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Como ocultar la barra de navegación en Mobile Safari sin usar Javascript -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Font-Awesome 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <title>Alca-App, Información</title>
+</head>
+<body id="info" name="info" data-target=".navbar">
+<!-- BARRA DE NAVEGACION -->
+   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+          <a id="alca_app" class="navbar-brand" href="#info">ALCA-APP</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html#arribaArriba">Detalles</a></li>
+              <li><a href="index.html#arribaAbajo">Fundamentos</a></li>
+              <li><a href="index.html#precio">Ofertas</a></li>
+              <li><a href="index.html#centroCentroB">Equipo</a></li>
+              <li><a href="index.html#centroAbajoS">Servicios</a></li>
+              <li><a href="#info">Información</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>    
+
+<!-- FORMULARIO 
+                     ============ -->
+<div id="formulario" class="container-fluid">
+   <h1 class="text-center">Alca-App <small class="hidden-xs">Le agradece su tiempo para rellenar este formulario</small></h1>
+   <h3 class="text-center">Ante todo le ofrecemos servicio</h3>
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="nomApe" class="col-sm-3 col-md-offset-1 control-label">Nombre y apellidos: </label>
+            <div class="col-sm-9 col-md-6">
+                <input type="text" class="form-control sombraCaja" id="nomApe" placeholder="Nombre">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 col-md-offset-1 control-label">Email: </label>
+            <div class="col-sm-9  col-md-6">
+                <input type="text" class="form-control sombraCaja" id="email" placeholder="Email">
+            </div>
+        </div>   
+        <div class="form-group">
+            <label for="tlfon" class="col-sm-3 col-md-offset-1 control-label">Teléfono: </label>
+            <div class="col-sm-9  col-md-6">
+                <input type="tel" class="form-control sombraCaja" id="tlfon" placeholder="Telefono">
+            </div>
+        </div>  
+        <div class="form-group">
+            <label for="fNac" class="col-xs-12 col-sm-3 col-md-offset-1 control-label">Fecha Nacimiento:</label>
+            <div class="col-xs-4 col-sm-3 col-md-2">
+                <select name="dia" class="form-control sombraCaja" id="dia">
+                    <option value="dia" selected>Dia</option>
+                    <option value="1" id="1">1</option>
+                    <option value="2" id="2">2</option>
+                    <option value="3" id="3">3</option>
+                    <option value="4" id="4">4</option>
+                    <option value="5" id="5">5</option>
+                    <option value="6" id="6">6</option>
+                    <option value="7" id="7">7</option>
+                    <option value="8" id="8">8</option>
+                    <option value="9" id="9">9</option>
+                    <option value="10" id="10">10</option>
+                    <option value="11" id="11">11</option>
+                    <option value="12" id="12">12</option>
+                    <option value="13" id="13">13</option>
+                    <option value="14" id="14">14</option>
+                    <option value="15" id="15">15</option>
+                    <option value="16" id="16">16</option>
+                    <option value="17" id="17">17</option>
+                    <option value="18" id="18">18</option>
+                    <option value="19" id="19">19</option>
+                    <option value="20" id="20">20</option>
+                    <option value="21" id="21">21</option>
+                    <option value="22" id="22">22</option>
+                    <option value="23" id="23">23</option>
+                    <option value="24" id="24">24</option>
+                    <option value="25" id="25">25</option>
+                    <option value="26" id="26">26</option>
+                    <option value="27" id="27">27</option>
+                    <option value="28" id="28">28</option>
+                    <option value="29" id="29">29</option>
+                    <option value="30" id="30">30</option>
+                    <option value="31" id="31">31</option>
+                </select>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-2">
+                <select name="mes" class="form-control sombraCaja" id="mes">
+                                <option value="mes" selected>Mes</option>
+                                <option value="01" id="01">1</option>
+                                <option value="02" id="02">2</option>
+                                <option value="03" id="03">3</option>
+                                <option value="04" id="04">4</option>
+                                <option value="05" id="05">5</option>
+                                <option value="06" id="06">6</option>
+                                <option value="07" id="07">7</option>
+                                <option value="08" id="08">8</option>
+                                <option value="09" id="09">9</option>
+                                <option value="010" id="010">10</option>
+                                <option value="011" id="011">11</option>
+                                <option value="012" id="012">12</option>
+                        </select>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-2">
+                <select name="anio" class="form-control sombraCaja" id="anio">
+                    <option value="anio" id="anio" selected>Año</option>
+                    <option value="001950" id="001950">1950</option>
+                    <option value="001951" id="001951">1951</option>
+                    <option value="001952" id="001952">1952</option>
+                    <option value="001953" id="001953">1953</option>
+                    <option value="001954" id="001954">1954</option>
+                    <option value="001955" id="001955">1955</option>
+                    <option value="001956" id="001956">1956</option>
+                    <option value="001957" id="001957">1957</option>
+                    <option value="001958" id="001958">1958</option>
+                    <option value="001959" id="001959">1959</option>
+                    <option value="001960" id="001960">1960</option>
+                    <option value="001961" id="001961">1961</option>
+                    <option value="001962" id="001962">1962</option>
+                    <option value="001963" id="001963">1963</option>
+                    <option value="001964" id="001964">1964</option>
+                    <option value="001965" id="001965">1965</option>
+                    <option value="001966" id="001966">1966</option>
+                    <option value="001967" id="001967">1967</option>
+                    <option value="001968" id="001968">1968</option>
+                    <option value="001969" id="001969">1969</option>
+                    <option value="001970" id="001970">1970</option>
+                    <option value="001971" id="001971">1971</option>
+                    <option value="001972" id="001972">1972</option>
+                    <option value="001973" id="001973">1973</option>
+                    <option value="001974" id="001974">1974</option>
+                    <option value="001975" id="001975">1975</option>
+                    <option value="001976" id="001976">1976</option>
+                    <option value="001977" id="001977">1977</option>
+                    <option value="001978" id="001978">1978</option>
+                    <option value="001979" id="001979">1979</option>
+                    <option value="001980" id="001980">1980</option>
+                    <option value="001981" id="001981">1981</option>
+                    <option value="001982" id="001982">1982</option>
+                    <option value="001983" id="001983">1983</option>
+                    <option value="001984" id="001984">1984</option>
+                    <option value="001985" id="001985">1985</option>
+                    <option value="001986" id="001986">1986</option>
+                    <option value="001987" id="001987">1987</option>
+                    <option value="001988" id="001988">1988</option>
+                    <option value="001989" id="001989">1989</option>
+                    <option value="001990" id="001990">1990</option>
+                    <option value="001991" id="001991">1991</option>
+                    <option value="001992" id="001992">1992</option>
+                    <option value="001993" id="001993">1993</option>
+                    <option value="001994" id="001994">1994</option>
+                    <option value="001995" id="001995">1995</option>
+                    <option value="001996" id="001996">1996</option>
+                    <option value="001997" id="001997">1997</option>
+                    <option value="001998" id="001998">1998</option>
+                    <option value="001999" id="001999">1999</option>
+                    <option value="002000" id="002000">2000</option>
+                    <option value="002001" id="002001">2001</option>
+                    <option value="002002" id="002002">2002</option>
+                    <option value="002003" id="002003">2003</option>
+                    <option value="002004" id="002004">2004</option>
+                    <option value="002005" id="002005">2005</option>
+                    <option value="002006" id="002006">2006</option>
+                    <option value="002007" id="002007">2007</option>
+                    <option value="002008" id="002008">2008</option>
+                    <option value="002009" id="002009">2009</option>
+                    <option value="002010" id="002010">2010</option>
+                </select>
+            </div>
+        </div>    
+        <div class="form-group">
+            <label for="pasw" class="col-sm-3 col-md-offset-1 control-label">Sugerencias: </label>
+            <div class="col-sm-9  col-md-6">
+                <textarea title="area de texto para sugerencias" class="form-control sombraCaja" id="suger" placeholder="Agradecemos sus sugerencias ..."></textarea>
+            </div>
+        </div>   
+        <div class="form-group">
+            <label for="not" class="col-sm-3 col-md-offset-1 control-label"></label>
+            <div class="col-sm-9  col-md-6">
+                <input type="checkbox" id="noticia" checked>
+                <label for="noticia"> Enviar noticias</label>
+            </div>
+        </div> 
+        <div class="form-group">
+            <label for="cond" class="col-sm-3 col-md-offset-1 control-label"></label>
+            <div class="col-sm-9  col-md-6">
+                <input type="checkbox" id="acepta" checked>
+                <label for="acepta"> Acepto <a href="#">Términos y condiciones</a></label>
+                <br/>
+            </div>
+        </div>     
+        <div class="form-group">
+            <label for="t" class="col-sm-3 col-md-offset-1 control-label"></label>
+            <div class="col-sm-9  col-md-6">
+                <input type="submit" class="btn" value="Enviar">
+                <input type="clear" class="btn" value="Limpiar">
+            </div>
+        </div>     
+    </form>
+</div>
+<!-- SECCION PIE -->
+   <footer id="pie" class="container-fluid text-center">
+       <div class="container">
+           <h2>Carlos Gil <small class="blc">DIW</small></h2>
+       </div>
+       <!-- ENLACES -->
+       <div class="container">
+           <div class="row">
+            
+           </div>
+       </div>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  
+  <!-- Control de deslizamiento de los enlaces internos -->
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#info']").on('click', function(event) {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      });
+    })
+    </script>
+    <!-- Funcion para ocultar el menu en movil o tablet cuando se hace click en un enlace -->
+    <script>
+        jQuery(document).ready(function () {
+        jQuery(".nav a, .navbar-header a").click(function(event) {
+                // check if window is small enough so dropdown is created
+               jQuery(".navbar-collapse").removeClass("in").addClass("collapse");
+        });
+});
+    </script>
+    
+</body>
+</html>

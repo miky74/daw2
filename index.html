@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Como ocultar la barra de navegación en Mobile Safari sin usar Javascript -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    
+    <!-- Font-Awesome 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    
+    <!-- Efecto sombreado naranja -->
+    <link rel="stylesheet" href="css/example-1.css">
+    <link rel="stylesheet" href="css/estilo.css">
+   
+    <meta charset="UTF-8">
+    <title>Alca-App, aplicaciones web</title>
+    
+</head>
+
+<body id="miWeb" data-target=".navbar">
+<!-- BARRA DE NAVEGACION -->
+   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+          <a id="alca_app" class="navbar-brand" href="#miWeb">ALCA-APP</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#arribaArriba">Detalles</a></li>
+              <li><a href="#arribaAbajo">Fundamentos</a></li>
+              <li><a href="#precio">Ofertas</a></li>
+              <li><a href="#centroCentroB">Equipo</a></li>
+              <li><a href="#centroAbajoS">Servicios</a></li>
+              <li><a href="informacion.html#info">Información</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+<!-- SECCION SLIDE -->
+   <div id="capaSlide" class="container-fluid">
+       <div class="page-header">
+        <h1 class="text-center">Alca-App</h1>
+      </div>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- Se insertan cuatro imagenes dependiendo del tipo de dispositivo se vera un tamaño de imagen -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/slide_767x400/alcaniz.jpg" alt="Imagen nocturna de alcañiz" class="img-responsive visible-xs">
+            <img src="img/slide_991x400/alcaniz.jpg" alt="Imagen nocturna de alcañiz" class="img-responsive visible-sm">
+            <img src="img/slide_1199x400/alcaniz.jpg" alt="Imagen nocturna de alcañiz" class="img-responsive visible-md">
+            <img src="img/slide_1920x400/alcaniz.jpg" alt="Imagen nocturna de alcañiz" class="img-responsive visible-lg">
+          </div>
+          <div class="item">
+            <img src="img/slide_767x400/radio.jpg" alt="Caratula de car radio" class="img-responsive visible-xs">
+            <img src="img/slide_991x400/radio.jpg" alt="Caratula de car radio" class="img-responsive visible-sm">
+            <img src="img/slide_1199x400/radio.jpg" alt="Caratula de car radio" class="img-responsive visible-md">
+            <img src="img/slide_1920x400/radio.jpg" alt="Caratula de car radio" class="img-responsive visible-lg">
+          </div>
+          <div class="item">
+            <img src="img/slide_767x400/alcaniz2.jpg" alt="Imagen nocturna de alcañiz retocada" class="img-responsive  visible-xs">
+            <img src="img/slide_991x400/alcaniz2.jpg" alt="Imagen nocturna de alcañiz retocada" class="img-responsive  visible-sm">
+            <img src="img/slide_1199x400/alcaniz2.jpg" alt="Imagen nocturna de alcañiz retocada" class="img-responsive  visible-md">
+            <img src="img/slide_1920x400/alcaniz2.jpg" alt="Imagen nocturna de alcañiz retocada" class="img-responsive  visible-lg">
+          </div>
+		  <div class="item">
+            <img src="img/slide_767x400/hoguera.jpg" alt="Brasas de hogera" class="img-responsive visible-xs">
+            <img src="img/slide_991x400/hoguera.jpg" alt="Brasas de hogera" class="img-responsive visible-sm">
+            <img src="img/slide_1199x400/hoguera.jpg" alt="Brasas de hogera" class="img-responsive visible-md">
+            <img src="img/slide_1920x400/hoguera.jpg" alt="Brasas de hogera" class="img-responsive visible-lg">
+          </div>
+        </div>
+      </div>
+   </div>
+   
+<!-- SECCION ARRIBA ARRIBA Detalles -->
+   <div id="arribaArriba" class="container-fluid text-center negroGris">
+              <h1 class="hidden-xs">Detalles sobre nuestras aplicaciones web</h1>
+              <h1 class="visible-xs">Pequeños detalles</h1>
+              <h3>Aplicaciones realizadas</h3>
+              <!-- Segun el tipo de dispositivo se muestra uno y se oculta otro -->
+              <div class="row text-center letraNegro">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                  <article class="thumbnail">
+                    <img src="thumbs/placa.jpg" alt="Imagen de placa uno">
+                    <p class="hidden-xs"><strong>Aplicaciones en movil</strong></p>
+                    <p class="visible-xs"><strong>Apps en movil</strong></p>
+                    <p class="hidden-xs">Aplicaciones realizadas para organizaciones sin ánimo de lucro, asociaciones, ayuntamientos ...</p>
+                    <p class="visible-xs">Asociaciones ....</p>
+                  </article>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                  <article class="thumbnail">
+                    <img src="thumbs/placa2.jpg" alt="Imagen de placa dos">
+                    <p class="hidden-xs"><strong>Aplicaciones de escritorio</strong></p>
+                    <p class="visible-xs"><strong>Apps de escritorio</strong></p>
+                    <p class="hidden-xs">Aplicaciones realizadas para organizaciones sin ánimo de lucro, asociaciones, ayuntamientos ...</p>
+                    <p class="visible-xs">Asociaciones ....</p>
+                  </article>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                  <article class="thumbnail">
+                    <img src="thumbs/placa3.jpg" alt="Imagen de placa tres">
+                    <p class="hidden-xs"><strong>Aplicaciones en desarrollo</strong></p>
+                    <p class="visible-xs"><strong>Apps en movil</strong></p>
+                    <p class="hidden-xs">Aplicaciones realizadas para organizaciones sin ánimo de lucro, asociaciones, ayuntamientos ...</p>
+                    <p class="visible-xs">Asociaciones ....</p>
+                  </article>
+                </div>
+            </div>
+  </div>
+  
+<!-- SECCION ARRIBA ABAJO FUNDAMENTOS -->
+   <div id="arribaAbajo" class="container-fluid grisAgris">
+      <div class="container text-center">
+       <h1>Fundamendos</h1>
+         <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 colorBorde">
+                <img src="img/alca-appOriginal210ppor240.png" alt="Imagen corporativa de Alca-App" class=" bloque">
+                <span class="inicial">1</span>
+                <h3>diseño de aplicaciones </h3>
+                <p>nuestro diseño de aplicaciones para iPhone, Android, iPad y Tablet se caracteriza por la creatividad y la simplicidad</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 colorBorde">
+                <img src="img/alca-appOriginal210ppor240.png" alt="Imagen corporativa de Alca-App" class=" bloque">
+                <span class="inicial">2</span>
+                <h3>desarrollo de aplicaciones</h3>
+                <p>el trabajo de nuestros desarrolladores de aplicaciones busca siempre el atractivo, la sencillez y la utilidad</p>
+            </div>            
+            <div class="col-xs-12 col-sm-4 col-md-4 colorBorde">
+                <img src="img/alca-appOriginal210ppor240.png" alt="Imagen corporativa de Alca-App" class=" bloque">
+                <span class="inicial">3</span>
+                <h3>distribución de aplicaciones</h3>
+                <p>los desarrollos de aplicaciones de vanadis están diseñados para ocupar una posición destacada en los app markets</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+<!-- SECCION CENTRO CENTRO, SECCION OFERTAS -->   
+   <div id="precio" class="container-fluid grisBlanco">
+       <article class="text-center">
+        <h1>Nuestras Ofertas</h1>
+        <h3>Elige la aplicación que más te convenga</h3>
+      </article>
+<!-- PANELES DE OFERTAS -->
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Básica</h1>
+            </div>
+            <div class="panel-body naranja">
+              <p><strong>20</strong> Lorem</p>
+              <p><strong>15</strong> Ipsum</p>
+              <p><strong>5</strong> Dolor</p>
+              <p><strong>2</strong> Sit</p>
+              <p><strong>Final</strong> Amet</p>
+            </div>
+            <div class="panel-footer">
+              <h3>42€</h3>
+              <h4>Al mes</h4>
+              <button class="btn btn-lg">Aceptar</button>
+            </div>
+          </div>      
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-0">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Premium</h1>
+            </div>
+            <div class="panel-body naranja">
+              <p><strong>40</strong> Lorem</p>
+              <p><strong>25</strong> Ipsum</p>
+              <p><strong>15</strong> Dolor</p>
+              <p><strong>3</strong> Sit</p>
+              <p><strong>Final</strong> Amet</p>
+            </div>
+            <div class="panel-footer">
+              <h3>125€</h3>
+              <h4>Al mes</h4>
+              <button class="btn btn-lg">Aceptar</button>
+            </div>
+          </div>      
+        </div>  
+    </div>
+   </div>
+
+<!-- SECCION CENTRO CENTRO B QUIENES SOMOS-->
+   <div id="centroCentroB" class="container-fluid">
+       <div class="text-center">
+        <h1>Quienes somos</h1>
+        <h3>Información de quienes somos</h3>
+      </div>
+      <div class="row">
+          <div class=""></div>
+          <div class=""></div>
+      </div>
+   </div>
+
+<!-- SECCION CENTRO ABAJO SUPERIOR -->
+   <div id="centroAbajoS" class="container-fluid text-center blancoGris">
+      <h1>SERVICIOS</h1>
+      <h4>Qué servicios disponemos</h4>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-wrench fuego"></span>
+          <h4 class="paddingSup">ASISTENCIA</h4>
+          <p class="blancoSombra">Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-phone fuego"></span>
+          <h4 class="paddingSup">DESARROLLO</h4>
+          <p class="blancoSombra">Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-king fuego"></span>
+          <h4 class="paddingSup">MANTENIMIENTO</h4>
+          <p class="blancoSombra">Lorem ipsum dolor sit amet..</p>
+        </div>
+      </div>
+   </div>
+
+<!-- SECCION PIE -->
+   <footer id="pie" class="container-fluid text-center">
+       <div class="container">
+           <h2>Carlos Gil <small class="blc">DIW</small></h2>
+       </div>
+       <!-- ENLACES -->
+       <div class="container">
+           <div class="row">
+            
+           </div>
+       </div>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Control de deslizamiento de los enlaces internos -->
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a").on('click', function(event) {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      });
+    })
+    </script>
+  
+    <!-- Funcion para ocultar el menu en movil o tablet cuando se hace click en un enlace -->
+    <script>
+        jQuery(document).ready(function () {
+        jQuery(".nav a, .navbar-header a").click(function(event) {
+                // check if window is small enough so dropdown is created
+               jQuery(".navbar-collapse").removeClass("in").addClass("collapse");
+        });
+});
+    </script>
+    
+</body>
+</html>
